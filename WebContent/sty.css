@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image: url(img/bg1.jpg);
+	background-repeat: repeat-y;
+	height: 625px;
+	width: 1200px;
+}
+h2{
+	float:center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 20px;
+	color: #b7b7b7;
+	margin-left:200px;
+	padding-left:0px;
+	padding-bottom:3px;
+	text-decoration: underline;
+	font-weight: bold;
+}
+#con_right ul {
+	list-style-type: none;
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+	margin-top: 30px;
+}
+#con_right hr {
+	margin-left: 150px;
+}
+
+#con_right ul li {
+	height: 30px;
+	width: 168px;
+	background-image: url(img/boutton.png);
+	padding-top: 10px;
+	padding-left: 25px;
+	padding-right:25px;
+	display: inline;
+	padding-bottom: 10px;
+}
+#con_right ul li a {
+	text-decoration: none;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 17.19px;
+	color: #5c9aa5;
+	
+}
+#con_right ul li:hover{
+	background-image: url(img/hover.png);
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 17.19px;
+	background-repeat: no-repeat;
+}
+#con_right img {
+	width: 815px;
+	margin-top: 15px;
+	margin-left: 250px;
+	margin-bottom: 50px;
+}
+
+
+
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+#content{
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:10px;
+	width:50%;
+	padding:10px;
+	border:solid 1px #CCCCCC;
+	-moz-border-radius:5px;
+	-webkit--border-radius:5px;
+	-o-border-radius:5px;
+	border-radius:5px;
+	margin-bottom:50px;
+}
+#content form{
+	margin-left:10%;
+	color:#FFFFFF;
+	font-size:25px;
+	font-style:oblique;
+}
+#content label{
+	font-size: 14px;
+	display: block;
+	color:#006;
+	margin-top:20px;
+	
+}
+#content imput[type=text]{
+	font-size:21px;
+	padding:2px;
+	width:300px;
+	height:25px;
+	line-height:25px;
+	color:#777;
+	display:inline;
+}
+#content textarea{
+	font-size:21px;
+	padding:2px;
+	width:350px;
+	height:150px;
+	display:block;
+}
+#content input[type=submit],#content input[type=reset]{
+	display: inline;
+	margin-top:20px;
+	width:85px;
+	height:25px;
+	cursor:pointer;
+	border:solid 1px #222;
+	background:#333;
+	color:#fff;
+	-moz-border-radius:5px;
+	-webkit--border-radius:5px;
+	-o-border-radius:5px;
+	border-radius:5px;
+}
+#content input[type=submit]:hover,#content input[type=reset]:hover{
+	background: #3CF;
+}
+#content .error{
+	color:#f55;
+}
+#content .success{
+	color:#26a514;
+}
+
+.message{
+	height: 400px;
+	width: 400px;
+	color: #0F0;
+	text-align:center;
+	-moz-border-radius:5px;
+	-webkit--border-radius:5px;
+	-o-border-radius:5px;
+	border-radius:5px;
+	background-image:url(img/cadremessage.png);
+	background-repeat:no-repeat;
+}
+.message a{
+	background-color:#FFFFFF;
+	font-size:14px;
+	font-family:"Myriad Pro";
+}
+#contcenu #content form ul {
+	/*margin-bottom:0px;*/
+	list-style-type: none;
+	height: 350px;
+	
+}
+#contcenu #content form ul li {
+	/*margin-bottom:0px;*/
+	float:left;
+	width: 200px;
+}
