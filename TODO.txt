@@ -1,0 +1,6 @@
+* Modifier un service (à rendre cliquable, et ne modifie que les champs non vides)
+* Modifier un médecin (à rendre cliquable, et ne modifie que les champs non vides)
+* Modifier un patient (à rendre cliquable, et ne modifie que les champs non vides)
+* Dans nouveau rendez-vous, le numéro du rdv doit être généré automatiquement
+* à la création d'un rdv, lister les num-med et num-pat
+* Dans Ordonnance, le numéro de l'ordonnance doit être généré automatiquement
